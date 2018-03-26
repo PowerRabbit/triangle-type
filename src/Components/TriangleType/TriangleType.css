@@ -1,0 +1,13 @@
+.error-message {
+    color: #ff0000;
+}
+
+label {
+    display: block;    
+}
+
+label span {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 20px 10px 0;
+}

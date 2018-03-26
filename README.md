@@ -4,6 +4,8 @@ Write a program that will determine the type of a triangle. It should take the l
 
 We are looking for solutions that showcase problem solving skills and structural considerations that can be applied to larger and potentially more complex problem domains. Pay special attention to tests, readability of code and error cases.
 ## Essential files
+The component file - https://github.com/PowerRabbit/triangle-type/blob/master/src/Components/TriangleType/TriangleType.js
+The tests - https://github.com/PowerRabbit/triangle-type/blob/master/src/Components/TriangleType/TriangleType.test.js
 ## Motivation
 **Choosing the platform**
 We need a solution, which provides as with running and testing environment, support for modules, and, possibly, modern code features - out from the box. The 'Create React App' project meets all the requirements. It contains: 

@@ -9,7 +9,8 @@ The component file - https://github.com/PowerRabbit/triangle-type/blob/master/sr
 The tests - https://github.com/PowerRabbit/triangle-type/blob/master/src/Components/TriangleType/TriangleType.test.js
 ## Motivation
 **Choosing the platform**
-We need a solution, which provides as with running and testing environment, support for modules, and, possibly, modern code features - out from the box. The 'Create React App' project meets all the requirements. It contains: 
+
+We need a solution, which provides us with a running and testing environment, support for modules, and, possibly, modern code features - out from the box. The 'Create React App' project meets all the requirements. It contains: 
  
  - React
  - modules support
@@ -18,15 +19,17 @@ We need a solution, which provides as with running and testing environment, supp
  - ES6 support
 
 **Component structure**
+
 The code should be reusable, so it makes sense to make it as a component.
-We expect, that in future some parameters may be changed (e.g. we should expect the extension from triangle to square), so we should be able to redefine such of them:
+We expect, that in future some parameters may be changed (e.g. we should expect the extension from triangle to square), so we should be able to redefine at least such of them:
  - The figure name (currently - 'triangle').
  - The number of sides.
- - The maximum and minimum length of side.
+ - The maximal and minimal length of side.
 
 We define these parameters as public properties of the class. However, we do not make them as component’s inputs/attributes and do not create an abstract component/class, since that is overcomplicated for the current task (but we can easily do that in future).
 
 **Logical structure**
+
 The component should perform the following:
 
  - Get the length of figure sides.
@@ -40,10 +43,10 @@ The component should perform the following:
 2. Run 'npm install' (tested on Node v9.9.0)
 3. Run 'npm start'.
 4. If the browser will not be open automatically, go to 'http://localhost:3000'.
-5. To run test, use 'npm test'.
+5. To run tests, use 'npm test'.
 ## What can be improved
  - Put text messages into constants.
- - Improve visual indication of wrong inputs.
+ - Improve the visual indication of wrong inputs.
 
 ## Additional
 This project was bootstrapped with Create React App - [https://github.com/facebookincubator/create-react-app](https://github.com/facebookincubator/create-react-app).
